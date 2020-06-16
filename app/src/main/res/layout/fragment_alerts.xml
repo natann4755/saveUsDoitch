@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="520"
+    tools:context=".alerts_screen.AlertsFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:background="@color/add_btn_color">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/assistant_regular"
+            android:text="@string/my_alerts"
+            android:textColor="@android:color/white"
+            android:textSize="22sp" />
+
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="70"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/rect_with_stroke"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/loginColorLite"
+                android:fontFamily="@font/assistant_light"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="@string/number_of_patients"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/assistant_regular"
+                android:textColor="@color/appColor"
+                android:text="883"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/rect_with_stroke"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/loginColorLite"
+                android:fontFamily="@font/assistant_light"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="@string/number_of_recoverers"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/assistant_regular"
+                android:textColor="@color/yellowColor"
+                android:text="36"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="13dp"
+            android:background="@drawable/rect_with_stroke"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@color/loginColorLite"
+                android:fontFamily="@font/assistant_light"
+                android:layout_gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="@string/number_of_dead"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/assistant_regular"
+                android:textColor="@color/add_btn_color"
+                android:text="1"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/rect_with_stroke"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="138">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:fontFamily="@font/assistant_bold"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="9dp"
+            android:textColor="@color/add_btn_color"
+            android:text="@string/no_alerts"
+            />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="214" />
+
+
+</LinearLayout>

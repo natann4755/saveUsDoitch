@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="640"
+    android:orientation="vertical"
+    tools:context=".slide_screens.OnBoardingFragment1">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="94"/>
+    
+    <ImageView
+        android:layout_width="255.4dp"
+        android:layout_height="258.2dp"
+        android:background="@drawable/on_boarding_first"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="36.8"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="73"
+        android:text="@string/private_and_safty"
+        android:textSize="40sp"
+        android:textColor="@color/appColor"
+        android:gravity="center"
+        android:fontFamily="@font/assistant_semibold"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="36"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="123"
+        android:text="@string/onboarding1_text"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/boardingColor"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="16"/>
+
+</LinearLayout>

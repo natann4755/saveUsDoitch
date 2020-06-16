@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="640"
+    tools:context=".MainActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/MA_toolbar_TB"
+        android:layout_width="match_parent"
+        android:background="@android:color/white"
+        android:layout_height="0dp"
+        android:layout_weight="60">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/save_us_main" />
+
+
+        <LinearLayout
+            android:id="@+id/MA_user_profile_LL"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="18dp"
+                android:background="@drawable/profile_icon" />
+
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <FrameLayout
+        android:id="@+id/MA_content_frame_FL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="520" />
+
+
+    <View
+        android:id="@+id/MA_empty_view_V"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"/>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/MA_bottom_navigation_BNV"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        android:background="@android:color/white"
+        app:itemTextColor="@color/bottom_bar_selector"
+        app:itemTextAppearanceActive="@style/ActiveItemTextAppearance"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_navigation_items" />
+
+
+</LinearLayout>

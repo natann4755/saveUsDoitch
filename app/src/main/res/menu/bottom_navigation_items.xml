@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/MA_action_main_item"
+        android:title="@string/main"
+        android:enabled="true"
+        android:icon="@drawable/main_icon"
+        />
+
+
+    <item android:id="@+id/MA_action_my_places_item"
+        android:title="@string/my_places"
+        android:icon="@drawable/my_places_icon"
+        />
+
+    <item android:id="@+id/MA_action_alerts_item"
+        android:title="@string/alerts"
+        android:icon="@drawable/alert_icon" />
+
+
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="appColor">#00b2ab</color>
+    <color name="appColorLite">#8c00b2ab</color>
+    <color name="appColorDark">#06928c</color>
+    <color name="loginColor">#051549</color>
+    <color name="loginColorLite">#737684</color>
+    <color name="loginEditTextColor">#b0b0b0</color>
+    <color name="myPlacesColor">#fafbfc</color>
+    <color name="add_btn_color">#ee6777</color>
+    <color name="lineColor">#e0e0e0</color>
+    <color name="yellowColor">#ffaa00</color>
+    <color name="boardingColor">#454e6c</color>
+    <color name="othersUserColor">#4cffaa00</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/myPlacesColor"
+    android:weightSum="520"
+    android:orientation="vertical"
+    tools:context=".my_places_screen.MyPlacesFragment">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/MPF_tabLayout_TL"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60"
+        app:tabMinWidth="140dp"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        app:tabTextAppearance="@style/MineCustomTabText"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabTextColor="@android:color/white"
+        app:tabBackground="@drawable/tab_color_selector"
+        app:tabSelectedTextColor="@android:color/white">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/my_places" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/on_map" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/MPF_viewpager_VP"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="460"
+
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">SaveUs</string>
+    <string name="main">main</string>
+    <string name="my_places">My places</string>
+    <string name="alerts">Alerts</string>
+    <string name="welcome">Welcome</string>
+    <string name="your_health">Your health and safety is a top priority, we are here to help you track and record your activity.</string>
+    <string name="all_the">All the information is completely anonymous, nothing to fear.</string>
+    <string name="agree">I approve</string>
+    <string name="name">name</string>
+    <string name="mail">E-mail</string>
+    <string name="phone_number">phone number</string>
+    <string name="bylaws"><u>Bylaws</u></string>
+    <string name="and">and the</string>
+    <string name="terms_of_use"><u>Terms of Use</u></string>
+    <string name="skip">skip</string>
+    <string name="login">sign in</string>
+    <string name="start">Start registering</string>
+    <string name="arrived">arrived</string>
+    <string name="stop">stop</string>
+    <string name="on_map">on map</string>
+    <string name="add_palce">add place</string>
+    <string name="save">save</string>
+    <string name="add_palce2">add place</string>
+    <string name="adress">address</string>
+    <string name="add_date">Add a date</string>
+    <string name="start2">start</string>
+    <string name="end">end</string>
+    <string name="sum">Total</string>
+    <string name="delete">Delete Report</string>
+    <string name="my_alerts">my alerts</string>
+    <string name="number_of_patients">patients</string>
+    <string name="number_of_recoverers">recoverers</string>
+    <string name="number_of_dead">dead</string>
+    <string name="no_alerts">There are no updates so far for you</string>
+    <string name="details">Personal Information</string>
+    <string name="user_name">user name</string>
+    <string name="birth">Date of birth</string>
+    <string name="languagh">language</string>
+    <string name="get_notification">Get notifications</string>
+    <string name="import_my_places">Exporting the places I visited</string>
+    <string name="how_it_work">How the app works</string>
+    <string name="report">Report a malfunction</string>
+    <string name="share">Share with friends</string>
+    <string name="terms_of_use2">Terms of Use</string>
+    <string name="edit_details">Edit personal information</string>
+    <string name="get_notification2">get notifications</string>
+    <string name="delete_details">delete details</string>
+    <string name="languagh2">language</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="edit_location">edit location</string>
+    <string name="private_and_safty">Privacy and Security</string>
+    <string name="onboarding1_text">The corona\'s spread is prevented <b>The goal of us all</b> \n\n You can now actively help \n <b>And without fear of violating your privacy</b></string>
+    <string name="simple_and_fast">Simple and fast</string>
+    <string name="alerts_and">Alerts and updates</string>
+    <string name="onboarding2_text"> <b>Real-time alert</b> You will be accepted in the situation you reported on your current location and has updated information as an infected area</string>
+    <string name="onboarding22_text"> <b>Updated alert</b> Will be accepted when one of the places that you reported, in real time or in retrospect, will be reported as an infected area</string>
+
+
+
+</resources>

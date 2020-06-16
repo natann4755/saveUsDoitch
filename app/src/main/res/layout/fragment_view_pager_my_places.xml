@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myPlacesColor"
+    tools:context=".my_places_screen.ViewPagerMyPlacesFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/VPMPF_recycler_view_RV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/VPMPF_add_place_LL"
+        android:layout_width="86dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp"
+        android:background="@drawable/rigth_corner_layout">
+
+        <ImageView
+            android:id="@+id/VPMPF_add_place_icon_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="11dp"
+            android:background="@drawable/add_place" />
+
+        <TextView
+            android:id="@+id/VPMPF_add_place_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="6dp"
+            android:fontFamily="@font/assistant_regular"
+            android:text="@string/add_palce"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
